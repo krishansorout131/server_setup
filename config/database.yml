@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: hospital_management_system_production
-  username: hospital_management_system
-  password: <%= ENV["HOSPITAL_MANAGEMENT_SYSTEM_DATABASE_PASSWORD"] %>
+  database: hospital_management_system_development
+  username: postgres
+  password: root
